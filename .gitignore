@@ -1,0 +1,23 @@
+# environemental variables/secrets
+.env
+
+# python cache
+__pycache__/
+*.pyc
+
+# logs
+logs/
+
+# static files collected for production
+staticfiles/
+
+# media files uploaded locally
+media/
+
+# IDE/editor
+.vscode
+
+.coverage
+
+db.sqlite3
+
