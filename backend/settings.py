@@ -65,7 +65,7 @@ MIDDLEWARE = [
 
 MAINTENANCE_MODE = False
 
-ROOT_URLCONF = 'BooksLibrary.urls'
+ROOT_URLCONF = 'backend.urls'
 
 TEMPLATES = [
     {
@@ -82,7 +82,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'BooksLibrary.wsgi.application'
+WSGI_APPLICATION = 'backend.wsgi.application'
 
 # SECRUTITY BOUNDARIES
 X_FRAME_OPTIONS = "DENY" #secures from threats like someone embeding our site in theirs and theft data
