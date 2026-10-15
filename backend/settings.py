@@ -226,19 +226,19 @@ LOGGING = {
         },
 
         # this is second file handler we are creating this sends to file
-        "file" : {
-            # here we are specifying to rotate the handler when maxbytes reach
-            "class" : "logging.handlers.RotatingFileHandler",
-            # we are specifying to create or use the books.log in logs
-            "filename" : BASE_DIR / "logs" / "books.log",
-            # specifying the bytes size to store per log file
-            "maxBytes" : 5 * 1024 * 1024,
-            # this to specify how many old files can hold, if it exceeds 3 it'll remove them
-            "backupCount" : 3,
-            # here it won't accept debug(the basic level) it accepts from info to critical
-            "level" : "INFO",
-            "formatter" : "my_style",
-            },
+        # "file" : {
+        #     # here we are specifying to rotate the handler when maxbytes reach
+        #     "class" : "logging.handlers.RotatingFileHandler",
+        #     # we are specifying to create or use the books.log in logs
+        #     "filename" : BASE_DIR / "logs" / "books.log",
+        #     # specifying the bytes size to store per log file
+        #     "maxBytes" : 5 * 1024 * 1024,
+        #     # this to specify how many old files can hold, if it exceeds 3 it'll remove them
+        #     "backupCount" : 3,
+        #     # here it won't accept debug(the basic level) it accepts from info to critical
+        #     "level" : "INFO",
+        #     "formatter" : "my_style",
+        #     },
         },
 
     "loggers":{
