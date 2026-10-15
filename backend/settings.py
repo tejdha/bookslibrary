@@ -244,7 +244,7 @@ LOGGING = {
     "loggers":{
         "Books":{
             # this tells when the books logger handles a record send it to both of handlers terminal/file
-            "handlers" : ["console","file"],
+            "handlers" : ["console"],
             # here we are specifying debug(basic level) different handlers accetps different levels but the logger should start from basic
             "level" : "DEBUG",
         },
